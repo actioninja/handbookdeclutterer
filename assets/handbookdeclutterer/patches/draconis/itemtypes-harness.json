@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/groupBy",
+    "value": ["harness-*"],
+    "file": "draconis:itemtypes/harness.json",
+    "dependsOn": [{ "modid": "draconis" }],
+    "side": "server"
+  }
+]

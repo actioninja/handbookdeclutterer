@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/handbook",
+    "value": {
+      "groupBy": ["armor-{bodypart}-brigandine-*"]
+    },
+    "file": "armory:itemtypes/armor/brigandine.json",
+    "dependsOn": [{ "modid": "armory" }],
+    "side": "server"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["powdered-metal-*"] },
+    "file": "em:itemtypes/resource/powdered-metal.json",
+    "dependsOn": [{ "modid": "em" }],
+    "side": "server"
+  }
+]

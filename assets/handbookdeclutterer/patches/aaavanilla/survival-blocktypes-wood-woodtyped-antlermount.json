@@ -1,0 +1,11 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": {
+      "groupBy": ["antlermount"]
+    },
+    "file": "game:blocktypes/wood/woodtyped/antlermount.json",
+    "side": "server"
+  }
+]

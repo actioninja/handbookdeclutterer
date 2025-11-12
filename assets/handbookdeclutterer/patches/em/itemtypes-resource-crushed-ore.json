@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["crushed-ore-*"] },
+    "file": "em:itemtypes/resource/crushed-ore.json",
+    "dependsOn": [{ "modid": "em" }],
+    "side": "server"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["powdered-stone-*"] },
+    "file": "em:itemtypes/resource/powdered-stone.json",
+    "dependsOn": [{ "modid": "em" }],
+    "side": "server"
+  }
+]

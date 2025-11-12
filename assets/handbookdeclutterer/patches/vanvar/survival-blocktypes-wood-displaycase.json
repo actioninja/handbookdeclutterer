@@ -1,0 +1,9 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/handbook/groupByByType",
+    "file": "game:blocktypes/wood/displaycase.json",
+    "dependsOn": [{ "modid": "vanvar" }],
+    "side": "server"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": ["buckethandle-*"]
+      }
+    },
+    "file": "primitivesurvival:itemtypes/metal/buckethandle.json",
+    "dependsOn": [{ "modid": "primitivesurvival" }],
+    "side": "server"
+  }
+]

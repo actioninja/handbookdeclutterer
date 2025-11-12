@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["oilbrazier-*"] },
+    "file": "bradycrudebuilding:blocktypes/clay/fired/oilbrazier.json",
+    "dependsOn": [{ "modid": "bradycrudebuilding" }],
+    "side": "server"
+  }
+]

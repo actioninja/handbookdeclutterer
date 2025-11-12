@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["crushed-metal-*"] },
+    "file": "em:itemtypes/resource/crushed-metal.json",
+    "dependsOn": [{ "modid": "em" }],
+    "side": "server"
+  }
+]

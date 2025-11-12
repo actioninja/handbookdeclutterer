@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["bannerpattern"] },
+    "file": "flags:itemtypes/bannerpattern.json",
+    "dependsOn": [{ "modid": "flags" }],
+    "side": "server"
+  }
+]

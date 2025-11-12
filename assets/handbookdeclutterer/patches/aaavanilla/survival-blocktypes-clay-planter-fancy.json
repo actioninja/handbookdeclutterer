@@ -1,0 +1,13 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": ["clayplanter-*"],
+      }
+    },
+    "file": "game:blocktypes/clay/planter-fancy.json",
+    "side": "server"
+  }
+]

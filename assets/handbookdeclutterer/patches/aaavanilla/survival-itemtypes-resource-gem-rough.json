@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/groupBy",
+    "value": ["gem-*"],
+    "file": "game:itemtypes/resource/gem-rough.json",
+    "side": "server"
+  }
+]

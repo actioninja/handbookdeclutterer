@@ -1,0 +1,13 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": ["flowerpot-*"],
+      }
+    },
+    "file": "game:blocktypes/clay/flowerpot-fancy.json",
+    "side": "server"
+  }
+]

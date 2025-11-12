@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook/groupBy",
+    "value": { "handbook": { "groupBy": ["bellbook-*"] } },
+    "file": "confession:blocktypes/craftingbooks/bell_book.json",
+    "dependsOn": [{ "modid": "soundofconfession" }],
+    "side": "server"
+  }
+]

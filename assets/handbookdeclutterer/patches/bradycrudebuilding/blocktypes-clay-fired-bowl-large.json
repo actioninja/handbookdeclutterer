@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["bowl-large-*"] },
+    "file": "bradycrudebuilding:blocktypes/clay/fired/bowl-large.json",
+    "dependsOn": [{ "modid": "bradycrudebuilding" }],
+    "side": "server"
+  }
+]

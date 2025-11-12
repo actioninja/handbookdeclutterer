@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/groupBy",
+    "value": ["floor_cushion-*"],
+    "file": "kevinsfurniture:blocktypes/chairs/floorcushions.json",
+    "dependsOn": [{ "modid": "kevinsfurniture" }],
+    "side": "server"
+  }
+]
