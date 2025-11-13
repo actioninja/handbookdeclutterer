@@ -1,0 +1,29 @@
+{
+	"enabled": false,
+	"//inheritFrom": "blocktypes/clay/fired/oilbrazier.json",
+	"code": "oilbrazier",
+	"class": "BlockTorch",
+	"entityClassByType": { "*-lit": "Torch" },
+	"variantgroups": [
+		{ "loadFromProperties": "block/rockwithdeposit" },
+		{ "code": "rock", "states": ["cobble", "rock"] },
+		{ "code": "state", "states": ["extinct", "lit"] }
+	],
+	"texturesByType": {
+		"*-cobble-*": {
+			"all": { "base": "game:block/stone/cobblestone/{rock}*" }
+		},
+		"*-rock-*": {
+			"all": { "base": "game:block/stone/rock/{rock}*" }
+		},
+		"*": {
+			"content": { "base": "game:block/fire" },
+			"lard": { "base": "item/resource/fat" }
+		}
+    },
+    "attributes": {
+        "handbook": {
+            "groupBy": [ "oilbrazier-*" ]
+        },
+    }
+}

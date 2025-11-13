@@ -1,6 +1,6 @@
 [
   {
-    "op": "replace",
+    "op": "addMerge",
     "path": "/attributes/handbook",
     "value": {
       "groupBy": ["armor-{bodypart}-brigandine-*"]
