@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["cangemcuttingtable"] },
+    "file": "canjewelry:blocktypes/cangemcuttingtable.json",
+    "dependsOn": [{ "modid": "canjewelry" }],
+    "side": "server"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["key-*"] },
+    "file": "thievery:itemtypes/key.json",
+    "dependsOn": [{ "modid": "thievery" }],
+    "side": "server"
+  }
+]

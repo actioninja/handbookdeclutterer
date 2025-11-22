@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/groupBy",
+    "value": ["gem-cut-{quality}-*"],
+    "file": "canjewelry:itemtypes/resource/gem-cut.json",
+    "dependsOn": [{ "modid": "canjewelry" }],
+    "side": "server"
+  }
+]

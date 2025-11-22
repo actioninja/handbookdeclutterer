@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["cannecklacestand-{type}-*"] },
+    "file": "canjewelry:blocktypes/necklacestand.json",
+    "dependsOn": [{ "modid": "canjewelry" }],
+    "side": "server"
+  }
+]

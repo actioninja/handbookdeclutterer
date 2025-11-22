@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["lockpick-skeletonkey"],},
+    "file": "thievery:itemtypes/lockpick-skeletonkey.json",
+    "dependsOn": [{ "modid": "thievery" }],
+    "side": "server"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["locktool-*"] },
+    "file": "thievery:itemtypes/locktool.json",
+    "dependsOn": [{ "modid": "thievery" }],
+    "side": "server"
+  }
+]

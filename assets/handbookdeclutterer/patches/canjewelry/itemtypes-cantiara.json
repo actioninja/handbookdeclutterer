@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/groupBy",
+    "value": ["cantiara-*"],
+    "file": "canjewelry:itemtypes/cantiara.json",
+    "dependsOn": [{ "modid": "canjewelry" }],
+    "side": "server"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["tensionwrench-*"] },
+    "file": "thievery:itemtypes/tensionwrench.json",
+    "dependsOn": [{ "modid": "thievery" }],
+    "side": "server"
+  }
+]

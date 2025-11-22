@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/groupBy",
+    "value": ["gem-rough-{quality}-*"],
+    "file": "canjewelry:itemtypes/resource/gem-rough.json",
+    "dependsOn": [{ "modid": "canjewelry" }],
+    "side": "server"
+  }
+]

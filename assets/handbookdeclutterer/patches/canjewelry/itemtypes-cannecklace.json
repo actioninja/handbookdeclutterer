@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/groupBy",
+    "value": ["cansimplenecklace-*"],
+    "file": "canjewelry:itemtypes/cannecklace.json",
+    "dependsOn": [{ "modid": "canjewelry" }],
+    "side": "server"
+  }
+]

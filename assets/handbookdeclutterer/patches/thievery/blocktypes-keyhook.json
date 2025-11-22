@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["keyhook-*"] },
+    "file": "thievery:blocktypes/keyhook.json",
+    "dependsOn": [{ "modid": "thievery" }],
+    "side": "server"
+  }
+]
