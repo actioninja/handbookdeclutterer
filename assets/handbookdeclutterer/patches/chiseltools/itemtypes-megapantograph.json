@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": { "handbook": { "groupBy": ["megapantograph-*"] } },
+    "file": "chiseltools:itemtypes/megapantograph.json",
+    "dependsOn": [{ "modid": "chiseltools" }],
+    "side": "server"
+  }
+]
