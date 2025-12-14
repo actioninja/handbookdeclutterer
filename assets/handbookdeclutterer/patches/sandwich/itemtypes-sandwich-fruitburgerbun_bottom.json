@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": { "handbook": { "groupBy": ["fruitburgerbottombun-*"] } },
+    "file": "sandwich:itemtypes/sandwich/fruitburgerbun_bottom.json",
+    "dependsOn": [{ "modid": "sandwich" }],
+    "side": "server"
+  }
+]

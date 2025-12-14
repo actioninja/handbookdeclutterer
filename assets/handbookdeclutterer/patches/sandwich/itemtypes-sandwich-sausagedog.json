@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": { "handbook": { "groupBy": ["sausagedog-*"] } },
+    "file": "sandwich:itemtypes/sandwich/sausagedog.json",
+    "dependsOn": [{ "modid": "sandwich" }],
+    "side": "server"
+  }
+]

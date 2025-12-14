@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": { "handbook": { "groupBy": ["meatpatty-*"] } },
+    "file": "sandwich:itemtypes/sandwich/meatpatty.json",
+    "dependsOn": [{ "modid": "sandwich" }],
+    "side": "server"
+  }
+]

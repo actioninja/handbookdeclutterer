@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": { "handbook": { "groupBy": ["slicedvegetable-*"] } },
+    "file": "sandwich:itemtypes/sandwich/vegetableslice.json",
+    "dependsOn": [{ "modid": "sandwich" }],
+    "side": "server"
+  }
+]

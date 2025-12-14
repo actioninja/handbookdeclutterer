@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": { "handbook": { "groupBy": ["punch-*"] } },
+    "file": "coinage:itemtypes/tool/punch.json",
+    "dependsOn": [{ "modid": "coinage" }],
+    "side": "server"
+  }
+]

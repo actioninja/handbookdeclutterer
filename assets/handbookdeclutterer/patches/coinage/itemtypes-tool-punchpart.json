@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": { "handbook": { "groupBy": ["punchpart-*"] } },
+    "file": "coinage:itemtypes/tool/punchpart.json",
+    "dependsOn": [{ "modid": "coinage" }],
+    "side": "server"
+  }
+]
