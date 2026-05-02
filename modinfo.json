@@ -3,10 +3,10 @@
   "side": "server",
   "name": "Handbook Declutterer",
   "modid": "handbookdeclutterer",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Massive set of fixes and patches to better group items in the handbook",
   "authors": ["actioninja", "Craluminum2413" ],
   "dependencies": {
-    "game": "1.21.0"
+    "game": "1.22.0"
   }
 }
