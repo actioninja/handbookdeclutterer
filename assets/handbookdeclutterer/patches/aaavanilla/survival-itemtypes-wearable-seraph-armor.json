@@ -12,7 +12,7 @@
         "*-plate-*": ["armor-{bodypart}-plate-*"]
       }
     },
-    "file": "game:itemtypes/wearable/armor.json",
+    "file": "game:itemtypes/wearable/seraph/armor.json",
     "side": "server"
   }
 ]

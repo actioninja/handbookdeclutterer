@@ -7,7 +7,7 @@
         "groupBy": ["@clothes-neck-(acorn|cypress|larch|pinecone|redwood|walnut).*"]
       }
     },
-    "file": "game:itemtypes/wearable/neck.json",
+    "file": "game:itemtypes/wearable/seraph/neck.json",
     "side": "server"
   }
 ]
