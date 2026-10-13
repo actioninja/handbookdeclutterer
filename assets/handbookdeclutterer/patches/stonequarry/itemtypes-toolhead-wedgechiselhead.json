@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "wedgechiselhead-*"
+        ]
+      }
+    },
+    "file": "stonequarry:itemtypes/toolhead/wedgechiselhead.json",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ],
+    "side": "server"
+  }
+]

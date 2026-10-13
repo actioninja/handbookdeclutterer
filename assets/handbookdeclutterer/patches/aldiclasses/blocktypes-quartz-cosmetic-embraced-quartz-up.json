@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "@embraced-quartz-up(?:left|right)?-.+"
+        ]
+      }
+    },
+    "file": "aldiclasses:blocktypes/quartz/cosmetic/embraced-quartz-up.json",
+    "dependsOn": [
+      {
+        "modid": "aldiclasses"
+      }
+    ],
+    "side": "server"
+  }
+]

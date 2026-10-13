@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "treehollowplaced-*"
+        ]
+      }
+    },
+    "file": "primitivesurvival:blocktypes/wood/treehollowplaced.json",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ],
+    "side": "server"
+  }
+]

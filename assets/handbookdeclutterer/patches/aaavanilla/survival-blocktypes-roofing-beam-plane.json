@@ -1,0 +1,15 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "beam-plane-*"
+        ]
+      }
+    },
+    "file": "game:blocktypes/roofing/beam-plane.json",
+    "side": "server"
+  }
+]

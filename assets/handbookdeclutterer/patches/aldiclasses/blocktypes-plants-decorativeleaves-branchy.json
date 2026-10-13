@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "decorativeleavesbranchy-*"
+        ]
+      }
+    },
+    "file": "aldiclasses:blocktypes/plants/decorative leaves/branchy.json",
+    "dependsOn": [
+      {
+        "modid": "aldiclasses"
+      }
+    ],
+    "side": "server"
+  }
+]

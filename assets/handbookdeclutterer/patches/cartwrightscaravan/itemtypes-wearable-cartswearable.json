@@ -1,0 +1,22 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupByByType": {
+          "@cartswearable-[^-]+-(?!primitive-).+": [
+            "cartswearable-{type}-{form}-*"
+          ]
+        }
+      }
+    },
+    "file": "cartwrightscaravan:itemtypes/wearable/cartswearable.json",
+    "dependsOn": [
+      {
+        "modid": "cartwrightscaravan"
+      }
+    ],
+    "side": "server"
+  }
+]

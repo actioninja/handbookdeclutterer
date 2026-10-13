@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "hpspinningwheel-*"
+        ]
+      }
+    },
+    "file": "spinningwheel:blocktypes/spinningwheel.json",
+    "dependsOn": [
+      {
+        "modid": "spinningwheel"
+      }
+    ],
+    "side": "server"
+  }
+]

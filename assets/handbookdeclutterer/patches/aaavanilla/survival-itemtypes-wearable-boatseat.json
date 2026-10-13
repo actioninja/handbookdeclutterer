@@ -1,0 +1,15 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "boatseat-*"
+        ]
+      }
+    },
+    "file": "game:itemtypes/wearable/boatseat.json",
+    "side": "server"
+  }
+]

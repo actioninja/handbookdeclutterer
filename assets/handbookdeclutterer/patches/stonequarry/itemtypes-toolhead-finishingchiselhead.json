@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "finishingchiselhead-*"
+        ]
+      }
+    },
+    "file": "stonequarry:itemtypes/toolhead/finishingchiselhead.json",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ],
+    "side": "server"
+  }
+]

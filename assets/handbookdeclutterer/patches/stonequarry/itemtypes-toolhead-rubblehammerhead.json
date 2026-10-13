@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "rubblehammerhead-*"
+        ]
+      }
+    },
+    "file": "stonequarry:itemtypes/toolhead/rubblehammerhead.json",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ],
+    "side": "server"
+  }
+]

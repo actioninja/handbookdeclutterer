@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "dirtymetalpot-*"
+        ]
+      }
+    },
+    "file": "metalpots:blocktypes/dirtymetalpot.json",
+    "dependsOn": [
+      {
+        "modid": "metalpots"
+      }
+    ],
+    "side": "server"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "twine-*"
+        ]
+      }
+    },
+    "file": "tailorsdelight:itemtypes/resource/twine.json",
+    "dependsOn": [
+      {
+        "modid": "tailorsdelight"
+      }
+    ],
+    "side": "server"
+  }
+]

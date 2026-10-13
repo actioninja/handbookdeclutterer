@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "thinalignedplanks-*"
+        ]
+      }
+    },
+    "file": "aldiclasses:blocktypes/wood/woodtyped/thinalignedplanks.json",
+    "dependsOn": [
+      {
+        "modid": "aldiclasses"
+      }
+    ],
+    "side": "server"
+  }
+]

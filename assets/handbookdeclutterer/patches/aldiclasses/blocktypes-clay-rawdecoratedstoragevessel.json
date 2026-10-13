@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "rawdecoratedstoragevessel-*"
+        ]
+      }
+    },
+    "file": "aldiclasses:blocktypes/clay/rawdecoratedstoragevessel.json",
+    "dependsOn": [
+      {
+        "modid": "aldiclasses"
+      }
+    ],
+    "side": "server"
+  }
+]

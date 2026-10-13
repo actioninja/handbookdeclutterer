@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "claysmokingpipebowl-*-{type}"
+        ]
+      }
+    },
+    "file": "pipeleaf:itemtypes/claysmokingpipebowl.json",
+    "dependsOn": [
+      {
+        "modid": "pipeleaf"
+      }
+    ],
+    "side": "server"
+  }
+]

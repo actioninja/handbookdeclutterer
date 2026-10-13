@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "wateringcancolored-{materialtype}-*"
+        ]
+      }
+    },
+    "file": "bricklayers:blocktypes/clay/wateringcancolored.json",
+    "dependsOn": [
+      {
+        "modid": "bricklayers"
+      }
+    ],
+    "side": "server"
+  }
+]

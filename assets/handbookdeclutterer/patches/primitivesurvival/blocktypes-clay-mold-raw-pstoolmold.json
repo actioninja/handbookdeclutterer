@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "pstoolmold-*-{materialtype}-{tooltype}"
+        ]
+      }
+    },
+    "file": "primitivesurvival:blocktypes/clay/mold/raw/pstoolmold.json",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ],
+    "side": "server"
+  }
+]

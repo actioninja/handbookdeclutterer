@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "buttons-*"
+        ]
+      }
+    },
+    "file": "tailorsdelight:itemtypes/resource/buttons.json",
+    "dependsOn": [
+      {
+        "modid": "tailorsdelight"
+      }
+    ],
+    "side": "server"
+  }
+]

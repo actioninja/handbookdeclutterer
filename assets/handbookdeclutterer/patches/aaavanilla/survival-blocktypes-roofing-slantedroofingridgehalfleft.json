@@ -1,0 +1,15 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "slantedroofingridgehalfleft-*"
+        ]
+      }
+    },
+    "file": "game:blocktypes/roofing/slantedroofingridgehalfleft.json",
+    "side": "server"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "deadbear-*"
+        ]
+      }
+    },
+    "file": "butchering:itemtypes/butchercreatures/bear.json",
+    "dependsOn": [
+      {
+        "modid": "butchering"
+      }
+    ],
+    "side": "server"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "vesselcoloredplanter-*"
+        ]
+      }
+    },
+    "file": "bricklayers:blocktypes/clay/storagevesselcolored_planter.json",
+    "dependsOn": [
+      {
+        "modid": "bricklayers"
+      }
+    ],
+    "side": "server"
+  }
+]

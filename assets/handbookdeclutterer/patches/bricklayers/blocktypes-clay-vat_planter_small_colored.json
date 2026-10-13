@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "vatplantersmall-{state}-*"
+        ]
+      }
+    },
+    "file": "bricklayers:blocktypes/clay/vat_planter_small_colored.json",
+    "dependsOn": [
+      {
+        "modid": "bricklayers"
+      }
+    ],
+    "side": "server"
+  }
+]

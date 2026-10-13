@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "sporeprint-*"
+        ]
+      }
+    },
+    "file": "substrate:itemtypes/sporeprint.json",
+    "dependsOn": [
+      {
+        "modid": "substrate"
+      }
+    ],
+    "side": "server"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "metalpottop-*"
+        ]
+      }
+    },
+    "file": "metalpots:itemtypes/metalpottop.json",
+    "dependsOn": [
+      {
+        "modid": "metalpots"
+      }
+    ],
+    "side": "server"
+  }
+]

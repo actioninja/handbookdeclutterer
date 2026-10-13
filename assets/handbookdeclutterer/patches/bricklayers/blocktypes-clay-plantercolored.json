@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "plantercolored-{state}-*"
+        ]
+      }
+    },
+    "file": "bricklayers:blocktypes/clay/plantercolored.json",
+    "dependsOn": [
+      {
+        "modid": "bricklayers"
+      }
+    ],
+    "side": "server"
+  }
+]

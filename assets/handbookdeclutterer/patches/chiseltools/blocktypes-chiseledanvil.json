@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "chiseledanvil-*"
+        ]
+      }
+    },
+    "file": "chiseltools:blocktypes/chiseledanvil.json",
+    "dependsOn": [
+      {
+        "modid": "chiseltools"
+      }
+    ],
+    "side": "server"
+  }
+]

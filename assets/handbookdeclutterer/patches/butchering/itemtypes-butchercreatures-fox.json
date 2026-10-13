@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "deadfox-*"
+        ]
+      }
+    },
+    "file": "butchering:itemtypes/butchercreatures/fox.json",
+    "dependsOn": [
+      {
+        "modid": "butchering"
+      }
+    ],
+    "side": "server"
+  }
+]

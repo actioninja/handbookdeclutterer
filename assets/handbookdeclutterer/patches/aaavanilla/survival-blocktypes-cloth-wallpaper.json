@@ -1,0 +1,15 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "wallpaper-*"
+        ]
+      }
+    },
+    "file": "game:blocktypes/cloth/wallpaper.json",
+    "side": "server"
+  }
+]

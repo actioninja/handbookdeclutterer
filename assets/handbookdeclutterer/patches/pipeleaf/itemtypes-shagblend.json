@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "shagblend-*"
+        ]
+      }
+    },
+    "file": "pipeleaf:itemtypes/shagblend.json",
+    "dependsOn": [
+      {
+        "modid": "pipeleaf"
+      }
+    ],
+    "side": "server"
+  }
+]

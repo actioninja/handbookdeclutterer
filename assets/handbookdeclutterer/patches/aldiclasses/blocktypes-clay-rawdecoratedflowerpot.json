@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "rawdecoratedflowerpot-*"
+        ]
+      }
+    },
+    "file": "aldiclasses:blocktypes/clay/rawdecoratedflowerpot.json",
+    "dependsOn": [
+      {
+        "modid": "aldiclasses"
+      }
+    ],
+    "side": "server"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "curedblend-*"
+        ]
+      }
+    },
+    "file": "pipeleaf:itemtypes/cured-blends.json",
+    "dependsOn": [
+      {
+        "modid": "pipeleaf"
+      }
+    ],
+    "side": "server"
+  }
+]

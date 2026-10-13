@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "sporepaperprinted-*"
+        ]
+      }
+    },
+    "file": "substrate:blocktypes/sporepaperprinted.json",
+    "dependsOn": [
+      {
+        "modid": "substrate"
+      }
+    ],
+    "side": "server"
+  }
+]

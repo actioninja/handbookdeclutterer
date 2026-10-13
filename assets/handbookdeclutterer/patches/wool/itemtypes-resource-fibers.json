@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbook/groupBy",
+    "value": [
+      "fibers-{type}-*"
+    ],
+    "file": "wool:itemtypes/resource/fibers.json",
+    "dependsOn": [
+      {
+        "modid": "wool"
+      }
+    ],
+    "side": "server"
+  }
+]

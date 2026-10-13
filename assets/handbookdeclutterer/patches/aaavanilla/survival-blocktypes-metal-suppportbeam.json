@@ -1,0 +1,15 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "supportbeam-tarnishedmetal-*"
+        ]
+      }
+    },
+    "file": "game:blocktypes/metal/suppportbeam.json",
+    "side": "server"
+  }
+]

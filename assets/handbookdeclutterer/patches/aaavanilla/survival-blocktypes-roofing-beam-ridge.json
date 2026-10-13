@@ -1,0 +1,15 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "beam-ridge-*"
+        ]
+      }
+    },
+    "file": "game:blocktypes/roofing/beam-ridge.json",
+    "side": "server"
+  }
+]

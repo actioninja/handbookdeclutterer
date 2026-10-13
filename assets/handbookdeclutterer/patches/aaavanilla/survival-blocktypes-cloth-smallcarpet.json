@@ -1,0 +1,15 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "smallcarpet-*"
+        ]
+      }
+    },
+    "file": "game:blocktypes/cloth/smallcarpet.json",
+    "side": "server"
+  }
+]

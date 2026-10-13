@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "cartsmetalextra-{type}-{form}-{state}-{wood}-*"
+        ]
+      }
+    },
+    "file": "cartwrightscaravan:itemtypes/wearable/cartsmetalextra.json",
+    "dependsOn": [
+      {
+        "modid": "cartwrightscaravan"
+      }
+    ],
+    "side": "server"
+  }
+]

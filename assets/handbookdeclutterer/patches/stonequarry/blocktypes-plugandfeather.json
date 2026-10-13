@@ -1,0 +1,25 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupByByType": {
+          "*-admin-*": [
+            "plugandfeather-admin-*"
+          ],
+          "*": [
+            "@plugandfeather-(?!admin-).+"
+          ]
+        }
+      }
+    },
+    "file": "stonequarry:blocktypes/plugandfeather.json",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ],
+    "side": "server"
+  }
+]

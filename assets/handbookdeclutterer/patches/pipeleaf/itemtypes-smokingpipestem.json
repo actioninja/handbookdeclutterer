@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "smokingpipestem-*"
+        ]
+      }
+    },
+    "file": "pipeleaf:itemtypes/smokingpipestem.json",
+    "dependsOn": [
+      {
+        "modid": "pipeleaf"
+      }
+    ],
+    "side": "server"
+  }
+]

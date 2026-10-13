@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "fishinghook-*"
+        ]
+      }
+    },
+    "file": "primitivesurvival:itemtypes/fishing/fishinghook.json",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ],
+    "side": "server"
+  }
+]
